@@ -1,0 +1,27 @@
+{
+  "name": "shopping_api",
+  "version": "1.0.0",
+  "description": "shopping api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lephuochoai/shopping_api.git"
+  },
+  "keywords": [
+    "shopping_api"
+  ],
+  "author": "Le Phuoc Hoai, Nguyen Thi Thuy Duong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lephuochoai/shopping_api/issues"
+  },
+  "homepage": "https://github.com/lephuochoai/shopping_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
