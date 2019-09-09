@@ -8,7 +8,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(`mongodb+srv://${Env.USERNAME_MONGODB}:${Env.PASSWORD_MONGODB}@cluster0-m3edx.mongodb.net/shopping`, {useNewUrlParser: true});
+mongoose.connect(`mongodb+srv://${Env.USERNAME_MONGODB}:${Env.PASSWORD_MONGODB}@cluster0-csifc.mongodb.net/test`,{useNewUrlParser: true});
 mongoose.set('useFindAndModify', false);
 
 app.use(cors());
